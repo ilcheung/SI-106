@@ -102,6 +102,7 @@ print car_str
 
 ###
 flickr_key = "" # paste your flickr key here
+Apply for an API key https://www.flickr.com/services/api/misc.api_keys.html
 
 # Useful function definitions 
 def flickrREST(baseurl = 'https://api.flickr.com/services/rest/',
