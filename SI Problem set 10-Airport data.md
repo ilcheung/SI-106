@@ -99,7 +99,7 @@ print car_str
 # to remind yourself of the steps to go through when dealing with APIs 
 # and making requests for data, and Problem Set 6 and Hackpad exercises 
 # can remind you of how to deal with nested data.
-
+# HINT: the flickrREST function will be very helpful for the rest of the question
 ###
 flickr_key = "" # paste your flickr key here
 
@@ -147,6 +147,8 @@ def fix_flickr_resp(response_string):
 #    method flickr.photos.getInfo (this is like the default method used in flickrREST: flickr.photos.search)
 #    -- the method describes the place to go to get the data within the flickr service
 #    See documentation at https://www.flickr.com/services/api/flickr.photos.getInfo.html
+# Once you are done, try pretty prining the id of the first photo. This will help you for the next part of the question. 
+
 
 # 5) Extract the tags used on each photo, and accumulate frequencies 
 #    with which each tag occurs across all those photos you found when you searched.
